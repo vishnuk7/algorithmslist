@@ -1,5 +1,9 @@
 import java.util.Arrays;
 
+/*
+    Counting Sort is not comparison sort in counting sort we use another array where stote occurance of a element in the index of another array
+*/
+
 class CountingSortSol {
     public void sort(int[] array) {
         int max = Arrays.stream(array).max().getAsInt();
